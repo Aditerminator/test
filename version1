@@ -2,14 +2,22 @@ import java.util.*;
 
 public class main{
 
-public static void main(String[] args)
-
-int i=0;
-
-for(;i<10;i++)
-  system.out.println(i);
-
-return;
+public static void main(String []args)
+  {
+    int i=0;
+    print(i);
+    return;
+  }
+   void print(int i)
+    {
+      if(i>=10)
+      return;
+      system.out.println(i);
+      print(i+1);
+      return;
+    }
+ 
 }
 
-done and dusted
+
+ 
